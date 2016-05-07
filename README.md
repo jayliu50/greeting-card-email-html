@@ -1,6 +1,11 @@
-# Thank-you note HTML email generator #
+# Greeting Card HTML Email Generator #
 
-If everyone you care about uses email, and you hope and hypothesize that more and more people are okay with receiving a thank-you note through email, and you think you could style an email better than the styles your email client provides, then this template project could be for you.
+This project might interest you if
+
+1. You hope and hypothesize that more and more **people are okay** with receiving a greeting card through email.
+2. You want to add a degree of **personalization and style** to your emails without going through some other (branded) service.
+3. You want to **style an email** beyond what your email client or service allows by default.
+4. You are okay with **tinkering** with a tiny bit of Sass CSS, and running some commands in the terminal/command line.
 
 This project is based on [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
 
@@ -18,14 +23,15 @@ The following are features I added
 
 ## Workflow ##
 
-1. Write your email as markdown in `src/pages`
-2. Run `npm run build`
+1. Write your email as markdown. Put it in `src/pages`. Run `npm start` to keep an eye on how the email will look.
+2. When you are ready for publishing, run `npm run build`.
 3. Paste the resulting HTML page from the browser to your email.
 4. Express gratitude and thanks to the people in your life!
 
 ## Limitations ##
 
 - Images will likely still have to be brought in manually, or linked from somewhere on the web. Getting them into the content of your email programmatically sucks.
+- Webfonts in emails are, at the time of writing, not very well supported beyond Apple products. \[[source](https://www.campaignmonitor.com/blog/email-marketing/2012/12/using-web-fonts-in-email/)\]
 
 ## Todo ##
 
