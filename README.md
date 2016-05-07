@@ -1,6 +1,6 @@
 # Thank-you note HTML email generator #
 
-If everyone you care about uses email, and if the hope and hypothesis is true, that more and more are okay with receiving a thank-you note through email, then this template project could be for you.
+If everyone you care about uses email, and you hope and hypothesize that more and more people are okay with receiving a thank-you note through email, and you think you could style an email better than the styles your email client provides, then this template project could be for you.
 
 This project is based on [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
 
@@ -29,7 +29,7 @@ The following are features I added
 
 ## Todo ##
 
-- upload images to s3 and change the img reference from local to s3-hosted
+- Programmatically upload images to s3 and change the img references from local to s3-hosted
 
 ## Installation
 
