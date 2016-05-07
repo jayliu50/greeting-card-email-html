@@ -26,7 +26,7 @@ The following are features I added
 1. Write your email as markdown. Put it in `src/pages`. Run `npm start` to keep an eye on how the email will look.
 2. When you are ready for publishing, run `npm run build`.
 3. Paste the resulting HTML page from the browser to your email.
-4. Express gratitude and thanks to the people in your life!
+4. Send and strengthen the relationships with the people that matter to you!
 
 ## Limitations ##
 
