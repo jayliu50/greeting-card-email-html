@@ -19,13 +19,17 @@ This project is based on [Foundation for Emails](http://foundation.zurb.com/emai
 The following are features I added
 
 - Write in markdown, compile to HTML
+- Better typography through [typogr](https://github.com/ekalinin/typogr.js)
 - Supports Chinese and English emails
 
 ## Workflow ##
 
 1. Write your email as markdown. Put it in `src/pages` (do not attempt to store files in subdirectories). Run `npm start` to keep an eye on how the email will look.
 2. When you are ready for publishing, run `npm run build`.
-3. Paste the resulting HTML page from the browser to your email.
+3. Paste the resulting HTML page of the `/dist` folder from the browser to your email.
+
+    **Note**: it's important that you copy the email from the `/dist` and _NOT_ than from `localhost:3000` or you risk losing your styles.
+
 4. Send and strengthen the relationships with the people that matter to you!
 
 ## Limitations ##

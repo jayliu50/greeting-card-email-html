@@ -13,6 +13,7 @@ import merge    from 'merge-stream';
 import beep     from 'beepbeep';
 import colors   from 'colors';
 import kramdown from 'gulp-kramdown';
+import typogr   from 'gulp-typogr';
 
 
 const $ = plugins();
@@ -57,6 +58,7 @@ function pages() {
       helpers: 'src/helpers'
     }))
     .pipe(inky())
+    .pipe(typogr())
     .pipe(gulp.dest('dist'));
 }
 
