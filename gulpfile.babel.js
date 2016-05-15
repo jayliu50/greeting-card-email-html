@@ -50,7 +50,7 @@ function clean(done) {
 // Then parse using Inky templates
 function pages() {
   return gulp.src('src/pages/**/*.md')
-    .pipe(kramdown())
+    .pipe(kramdown({smartypants: true}))
     .pipe(panini({
       root: 'src/pages',
       layouts: 'src/layouts',
